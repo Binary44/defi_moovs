@@ -5,6 +5,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Hello world!</Text>
+      <TextInput></TextInput>
       <StatusBar style="auto" />
     </View>
   );
@@ -13,5 +14,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    padding: 50,
+    justifyContent: "center",
+    alignItems: "center",
   },
 });
